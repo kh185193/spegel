@@ -3,7 +3,6 @@ module github.com/xenitab/spegel
 go 1.21
 
 require (
-	github.com/alexflint/go-arg v1.4.3
 	github.com/containerd/containerd v1.7.13
 	github.com/containerd/typeurl/v2 v2.1.1
 	github.com/gin-gonic/gin v1.9.1
@@ -19,6 +18,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/pelletier/go-toml/v2 v2.1.1
+	github.com/peterbourgon/ff/v3 v3.4.0
 	github.com/prometheus/client_golang v1.19.0
 	github.com/spf13/afero v1.11.0
 	github.com/stretchr/testify v1.9.0
@@ -42,7 +42,6 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/Microsoft/hcsshim v0.11.4 // indirect
-	github.com/alexflint/go-scalar v1.2.0 // indirect
 	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
